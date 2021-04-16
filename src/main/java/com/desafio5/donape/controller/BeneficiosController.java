@@ -15,7 +15,7 @@ import java.util.List;
 public class BeneficiosController {
     @Autowired
     private IBeneficiosService beneficiosService;
-    @GetMapping
+    @GetMapping("/beneficios")
     public ResponseEntity<List<Beneficios>> findAll(){
         var answerClient = beneficiosService.findAll();
         return ResponseEntity.ok(answerClient);
