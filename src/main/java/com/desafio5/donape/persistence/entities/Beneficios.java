@@ -22,11 +22,11 @@ public class Beneficios {
     }
     @Override
     public String toString() {
-        return "Bidder{" +
+        return "Beneficios{" +
                 "id=" + id +
-                ", name='" + titulo + '\'' +
-                ", email='" + descripcion + '\'' +
-                ", password='" + url + '\'' +
+                ", titulo='" + titulo + '\'' +
+                ", descripcion='" + descripcion + '\'' +
+                ", url='" + url + '\'' +
                 '}';
     }
 
